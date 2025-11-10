@@ -1,3 +1,5 @@
+package org.example;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -22,10 +24,10 @@ public class BlockPuzzleJewel {
 
     static class GamePanel extends JPanel implements KeyListener, MouseListener {
 
-        private static final int ROWS = 10;
-        private static final int COLS = 10;
+        private static final int ROWS = 8;
+        private static final int COLS = 8;
 
-        private static final int CELL_SIZE = 32;       // tamaño tablero
+        private static final int CELL_SIZE = 38;       // tamaño tablero
         private static final int PIECE_CELL_SIZE = 26; // tamaño bloques de abajo
 
         // tablero (centrado a ojo)
